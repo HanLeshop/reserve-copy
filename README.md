@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "`Reserve Copy`" - `Nikonov Danila`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -54,8 +54,9 @@ rsync -a --checksum .  /tmp/backup
 
 4. `command`
 
+
 ```
-rsync -a --checksum --exclude='*.*' ~/ /tmp/backup/
+rsync -a --checksum --exclude='*.*' --delete ~/ /tmp/backup/
 ```
 
 **ls -la**
